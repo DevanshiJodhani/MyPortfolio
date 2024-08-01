@@ -1,6 +1,13 @@
 import styled from 'styled-components';
 
 const About = () => {
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = '/Devanshi_Jodhani_Resume.pdf'; 
+    link.download = 'Devanshi_Jodhani_Resume.pdf'; 
+    link.click();
+  };
+
   return (
     <Container id='about'>
       <Content>
@@ -10,7 +17,7 @@ const About = () => {
           <p>
           As a frontend developer skilled in React, Vitest testing, Firebase, Appwrite, JavaScript, Tailwind CSS, HTML, and CSS, I have created numerous projects showcasing my expertise. My portfolio includes a Disney clone, JioCinema, LinkedIn clone, and a blog app using Appwrite. Additionally, I have developed various applications using JavaScript, such as a country information app, dictionary app, weather app, and bookstore application. While I specialize in frontend development, I also possess full-stack development skills, including proficiency in Node.js.
           </p>
-          <button>Download CV</button>
+          <button onClick={handleDownload}>Download Resume</button>
         </Left>
         <Right>
           <img src="./images/about.jpg" alt="About me" />
