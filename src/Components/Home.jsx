@@ -10,11 +10,15 @@ const Home = () => {
         <Info>
           <h4>Looking for a web devloper!</h4>
           {/* <span>Hello,</span> */}
-          <h2>I'm Devanshi <br />Jodhani</h2>
+          <h2>
+            I'm Devanshi <br />
+            Jodhani
+          </h2>
           <p>
-            As a full stack developer skilled in Node.js, React, Vitest testing, Firebase, Appwrite, JavaScript, Tailwind CSS, HTML, and CSS, I have created numerous projects showcasing my expertise. 
+            Delivering Complete Web Solutions with <br />
+            <span>Full-Stack Mastery.</span>
           </p>
-          <a href='#contact'>Contact Me</a>
+          <a href="#contact">Contact Me</a>
         </Info>
       </Content>
       <About />
@@ -62,10 +66,16 @@ const Info = styled.div`
     margin-bottom: 20px;
   }
   p {
-    font-size: 20px;
+    font-size: 35px;
     color: #333;
     line-height: 1.7;
     margin-bottom: 50px;
+
+    span{
+      font-size: 45px;
+      color: #695aa6;
+      font-weight: 600;
+    }
   }
   a {
     text-decoration: none;
@@ -86,15 +96,14 @@ const Info = styled.div`
   }
 
   @media screen and (max-width: 500px) {
-    h4{
-        font-size: 20px;
-
+    h4 {
+      font-size: 20px;
     }
-    h2{
-        font-size: 40px;
+    h2 {
+      font-size: 40px;
     }
-    p{
-        font-size: 18px;
+    p {
+      font-size: 18px;
     }
   }
 `;

@@ -3,19 +3,31 @@ import styled from 'styled-components';
 const About = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/Devanshi_Jodhani_Resume.pdf'; 
-    link.download = 'Devanshi_Jodhani_Resume.pdf'; 
+    link.href = '/Devanshi_Jodhani_Resume.pdf';
+    link.download = 'Devanshi_Jodhani_Resume.pdf';
     link.click();
   };
 
   return (
-    <Container id='about'>
+    <Container id="about">
       <Content>
         <Left>
           <h4>Who Am I?</h4>
           <h1>About Me</h1>
           <p>
-          As a frontend developer skilled in React, Vitest testing, Firebase, Appwrite, JavaScript, Tailwind CSS, HTML, and CSS, I have created numerous projects showcasing my expertise. My portfolio includes a Disney clone, JioCinema, LinkedIn clone, and a blog app using Appwrite. Additionally, I have developed various applications using JavaScript, such as a country information app, dictionary app, weather app, and bookstore application. While I specialize in frontend development, I also possess full-stack development skills, including proficiency in Node.js.
+            As a frontend developer specializing in React, Vitest for testing,
+            Firebase, Appwrite, JavaScript, Tailwind CSS, HTML, and CSS, I
+            create dynamic and responsive web applications. My portfolio
+            showcases a variety of projects, including a Disney clone,
+            JioCinema, LinkedIn clone, and a blog application using Appwrite.
+            Additionally, I've developed several JavaScript-based applications
+            such as a country information app, dictionary app, weather app, and
+            bookstore application. While my primary focus is on frontend
+            development, I also possess full-stack development skills with
+            proficiency in Node.js. My ability to bridge the gap between design
+            and functionality allows me to deliver comprehensive and scalable
+            digital solutions. Explore my work to see how I bring ideas to life
+            through code and design.
           </p>
           <button onClick={handleDownload}>Download Resume</button>
         </Left>
@@ -28,7 +40,7 @@ const About = () => {
 };
 
 const Container = styled.div`
-    width: 100%;
+  width: 100%;
   height: auto;
   padding: 50px 20px;
 `;
@@ -75,9 +87,10 @@ const Left = styled.div`
   p {
     line-height: 1.4;
     color: #111;
-    font-weight: 300;
-    letter-spacing: 1px;
-    margin-bottom: 50px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+    text-align: justify;
   }
 
   button {
@@ -122,7 +135,7 @@ const Left = styled.div`
 const Right = styled.div`
   max-width: 40%;
   width: 100%;
-  border-radius: 67% 33% 40% 60% / 50% 42% 58% 50% ;
+  border-radius: 67% 33% 40% 60% / 50% 42% 58% 50%;
   box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
   overflow: hidden;
 
@@ -141,7 +154,6 @@ const Right = styled.div`
     img {
       width: 500px;
       height: 500px;
-
     }
   }
 
@@ -152,7 +164,5 @@ const Right = styled.div`
     }
   }
 `;
-
-
 
 export default About;
