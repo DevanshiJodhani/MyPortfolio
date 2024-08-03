@@ -8,13 +8,13 @@ const Footer = () => {
             <p>Copyright &copy; 2024 by Devanshi Jodhani | All Rights Reserved.</p>
         </Copy>
         <SocialLinks>
-            <a href="https://github.com/AnkitJodhani" target='_blank'>
+            <a href="https://github.com/DevanshiJodhani" target='_blank'>
             <i class='bx bxl-github'></i>
             </a>
-            <a href="https://www.linkedin.com/in/ankit-jodhani/" target='_blank'>
+            <a href="https://www.linkedin.com/in/devanshi-jodhani-5a31b324b/" target='_blank'>
             <i class='bx bxl-linkedin-square' ></i>
             </a>
-            <a href="https://twitter.com/Ankit__Jodhani" target='_blank'>
+            <a href="https://x.com/devanshi_4505" target='_blank'>
             <i class='bx bxl-twitter' ></i>
             </a>
         </SocialLinks>

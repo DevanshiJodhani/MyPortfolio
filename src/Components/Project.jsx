@@ -8,6 +8,34 @@ const Project = () => {
         <h1>Projects</h1>
       </Content>
       <ProjectBx>
+      <Box>
+          <Wrap>
+            <ImgBox>
+              <img src="./images/FastNews.png" alt="Weather App" />
+            </ImgBox>
+            <Description>
+              <h2>News Application</h2>
+              <ul>
+                <li>I have created a news website using React.js with Vite framework for the frontend, Node.js for the backend, and styled-components for styling.</li>
+                <li>Users can log in, sign up, log out, delete their accounts, and those signed up as "admin" have the additional privileges to create and delete posts.</li>
+                <li>All users can view all posts, while admins can view and manage posts they created, and regular users can view all posts but cannot create or delete them.</li>
+                <li>
+                Users can update their email, name, role, and password, delete their account, and will get email notifications for any changes or post actions.</li>
+              </ul>
+            </Description>
+          </Wrap>
+          <Btn>
+            <a
+              href="https://github.com/DevanshiJodhani/FastNews-newsApp"
+              target="_blank"
+            >
+              <i className="bx bxl-github"></i>
+            </a>
+            <a href="#">
+              <i className="bx bx-link-external"></i>
+            </a>
+          </Btn>
+        </Box>
         <Box>
           <Wrap>
             <ImgBox>
@@ -39,6 +67,7 @@ const Project = () => {
             </a>
           </Btn>
         </Box>
+        
         <Box>
           <Wrap>
             <ImgBox>
@@ -251,34 +280,7 @@ const Project = () => {
             </a>
           </Btn>
         </Box>
-        <Box>
-          <Wrap>
-            <ImgBox>
-              <img src="./images/FastNews.png" alt="Weather App" />
-            </ImgBox>
-            <Description>
-              <h2>News Application</h2>
-              <ul>
-                <li>I have created a news website using React.js with Vite framework for the frontend, Node.js for the backend, and styled-components for styling.</li>
-                <li>Users can log in, sign up, log out, delete their accounts, and those signed up as "admin" have the additional privileges to create and delete posts.</li>
-                <li>All users can view all posts, while admins can view and manage posts they created, and regular users can view all posts but cannot create or delete them.</li>
-                <li>
-                Users can update their email, name, role, and password, delete their account, and will get email notifications for any changes or post actions.</li>
-              </ul>
-            </Description>
-          </Wrap>
-          <Btn>
-            <a
-              href="https://github.com/DevanshiJodhani/FastNews-newsApp"
-              target="_blank"
-            >
-              <i className="bx bxl-github"></i>
-            </a>
-            <a href="#">
-              <i className="bx bx-link-external"></i>
-            </a>
-          </Btn>
-        </Box>
+        
       </ProjectBx>
     </Container>
   );
