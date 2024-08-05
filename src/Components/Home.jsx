@@ -5,11 +5,10 @@ import Contact from './Contact';
 
 const Home = () => {
   return (
-    <Container>
+    <Container id='home'>
       <Content>
         <Info>
           <h4>Looking for a web devloper!</h4>
-          {/* <span>Hello,</span> */}
           <h2>
             I'm Devanshi <br />
             Jodhani
