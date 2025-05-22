@@ -8,7 +8,45 @@ const Project = () => {
         <h1>Projects</h1>
       </Content>
       <ProjectBx>
-      <Box>
+        <Box>
+          <Wrap>
+            <ImgBox>
+              <img src="./images/reel-hive.png" alt="Weather App" />
+            </ImgBox>
+            <Description>
+              <h2>Reel-Hive</h2>
+              <ul>
+                <li>
+                  Developed a full-stack video streaming platform using React.js
+                  with Vite for the frontend and Node.js with MongoDB for the
+                  backend.
+                </li>
+                <li>
+                  Implemented user authentication, profile management (avatar,
+                  cover image, password updates), and account deletion.
+                </li>
+                <li>
+                  Built features for video upload, edit, publish/unpublish,
+                  likes, comments, and channel pages with personalized feeds
+                  like history and liked videos.
+                </li>
+                <li>
+                  Integrated Cloudinary for secure video/image storage and
+                  enabled full-text search for channels and videos.
+                </li>
+              </ul>
+            </Description>
+          </Wrap>
+          <Btn>
+            <a href="https://github.com/Reel-Hive/Reel-Hive" target="_blank">
+              <i className="bx bxl-github"></i>
+            </a>
+            <a href="https://reel-hive.netlify.app/" target="_blank">
+              <i className="bx bx-link-external"></i>
+            </a>
+          </Btn>
+        </Box>
+        <Box>
           <Wrap>
             <ImgBox>
               <img src="./images/FastNews.png" alt="Weather App" />
@@ -16,19 +54,33 @@ const Project = () => {
             <Description>
               <h2>News Application</h2>
               <ul>
-                <li>I have created a news website using React.js with Vite framework for the frontend, Node.js for the backend, and styled-components for styling.</li>
-                <li>Users can log in, sign up, log out, delete their accounts, and those signed up as "admin" have the additional privileges to create and delete posts.</li>
-                <li>All users can view all posts, while admins can view and manage posts they created, and regular users can view all posts but cannot create or delete them.</li>
                 <li>
-                Users can update their email, name, role, and password, delete their account, and will get email notifications for any changes or post actions.</li>
+                  I have created a news website using React.js with Vite
+                  framework for the frontend, Node.js for the backend, and
+                  styled-components for styling.
+                </li>
+                <li>
+                  Users can log in, sign up, log out, delete their accounts, and
+                  those signed up as "admin" have the additional privileges to
+                  create and delete posts.
+                </li>
+                <li>
+                  All users can view all posts, while admins can view and manage
+                  posts they created, and regular users can view all posts but
+                  cannot create or delete them.
+                </li>
+                <li>
+                  Users can update their email, name, role, and password, delete
+                  their account, and will get email notifications for any
+                  changes or post actions.
+                </li>
               </ul>
             </Description>
           </Wrap>
           <Btn>
             <a
               href="https://github.com/DevanshiJodhani/FastNews-newsApp"
-              target="_blank"
-            >
+              target="_blank">
               <i className="bx bxl-github"></i>
             </a>
             <a href="#">
@@ -44,22 +96,28 @@ const Project = () => {
             <Description>
               <h2>Tour Booking App</h2>
               <ul>
-              <li>
+                <li>
                   I have created a Tour Booking app using Node.js with MongoDB,
                   Mongoose, REST APIs, and NoSQL database.
-                </li><li>
-                Users can see all tours. Users with the 'admin' role have additional features, such as creating tours.
                 </li>
-                <li>Clickable tour boxes to view detailed information about each tour and to book the tour.</li>
-                <li>Added a payment integration method so users can book the tour.</li>
+                <li>
+                  Users can see all tours. Users with the 'admin' role have
+                  additional features, such as creating tours.
+                </li>
+                <li>
+                  Clickable tour boxes to view detailed information about each
+                  tour and to book the tour.
+                </li>
+                <li>
+                  Added a payment integration method so users can book the tour.
+                </li>
               </ul>
             </Description>
           </Wrap>
           <Btn>
             <a
               href="https://github.com/DevanshiJodhani/Natours"
-              target="_blank"
-            >
+              target="_blank">
               <i className="bx bxl-github"></i>
             </a>
             <a href="#">
@@ -67,7 +125,7 @@ const Project = () => {
             </a>
           </Btn>
         </Box>
-        
+
         <Box>
           <Wrap>
             <ImgBox>
@@ -76,18 +134,25 @@ const Project = () => {
             <Description>
               <h2>Disney + Clone</h2>
               <ul>
-                <li>I have created a Disney Clone using React.js, Firebase, and Styled
-                Components.</li>
-                <li>Provide full responsiveness across devices along with login and logout capabilities.</li>
-                <li>Clickable movie boxes to view detailed information about each movie</li>
+                <li>
+                  I have created a Disney Clone using React.js, Firebase, and
+                  Styled Components.
+                </li>
+                <li>
+                  Provide full responsiveness across devices along with login
+                  and logout capabilities.
+                </li>
+                <li>
+                  Clickable movie boxes to view detailed information about each
+                  movie
+                </li>
               </ul>
             </Description>
           </Wrap>
           <Btn>
             <a
               href="https://github.com/DevanshiJodhani/Disney-Clone"
-              target="_blank"
-            >
+              target="_blank">
               <i className="bx bxl-github"></i>
             </a>
             <a href="#">
@@ -103,21 +168,28 @@ const Project = () => {
             <Description>
               <h2>Twitter Clone</h2>
               <ul>
-                <li>I have created a Twitter Clone using React.js, Firebase, Styled
-                Components, and Redux.</li>
-                <li>Users have the ability to create posts, upload images and videos, and view posts from other users.</li>
-                <li>The fully responsive website seamlessly adjusts to different screen sizes, allowing users to easily log in and log out.</li>
+                <li>
+                  I have created a Twitter Clone using React.js, Firebase,
+                  Styled Components, and Redux.
+                </li>
+                <li>
+                  Users have the ability to create posts, upload images and
+                  videos, and view posts from other users.
+                </li>
+                <li>
+                  The fully responsive website seamlessly adjusts to different
+                  screen sizes, allowing users to easily log in and log out.
+                </li>
               </ul>
             </Description>
           </Wrap>
           <Btn>
             <a
               href="https://github.com/DevanshiJodhani/Twitter"
-              target="_blank"
-            >
+              target="_blank">
               <i className="bx bxl-github"></i>
             </a>
-            <a href="#">
+            <a href="https://thetitter.netlify.app/" target="_blank">
               <i className="bx bx-link-external"></i>
             </a>
           </Btn>
@@ -128,20 +200,28 @@ const Project = () => {
               <img src="./images/Linkedin.png" alt="LinkedIn Clone" />
             </ImgBox>
             <Description>
-             <h2>Linkedin Clone</h2>
-             <ul>
-              <li> I have created a LinkedIn clone Using React.js, firebase, styled
-              components and redux.</li>
-              <li>This website includes functionality for logging in and logging out.</li>
-              <li>The website supports uploading images and videos, allowing users to view posts made by other users.</li>
-             </ul>
+              <h2>Linkedin Clone</h2>
+              <ul>
+                <li>
+                  {' '}
+                  I have created a LinkedIn clone Using React.js, firebase,
+                  styled components and redux.
+                </li>
+                <li>
+                  This website includes functionality for logging in and logging
+                  out.
+                </li>
+                <li>
+                  The website supports uploading images and videos, allowing
+                  users to view posts made by other users.
+                </li>
+              </ul>
             </Description>
           </Wrap>
           <Btn>
             <a
               href="https://github.com/DevanshiJodhani/LinkedIn-Clone"
-              target="_blank"
-            >
+              target="_blank">
               <i className="bx bxl-github"></i>
             </a>
             <a href="#">
@@ -155,20 +235,29 @@ const Project = () => {
               <img src="./images/Jio-cinema.png" alt="Jio Cinema Clone" />
             </ImgBox>
             <Description>
-             <h2>Jio Cinema Clone</h2>
-             <ul>
-              <li> I have created a Jio Cinema clone using React.js with the Vite
-              framework, Firebase, and styled-components.</li>
-              <li> Full responsiveness across devices with login and logout capabilities.</li>
-              <li>Clickable movie boxes to view detailed information about each movie</li>
-             </ul>
+              <h2>Jio Cinema Clone</h2>
+              <ul>
+                <li>
+                  {' '}
+                  I have created a Jio Cinema clone using React.js with the Vite
+                  framework, Firebase, and styled-components.
+                </li>
+                <li>
+                  {' '}
+                  Full responsiveness across devices with login and logout
+                  capabilities.
+                </li>
+                <li>
+                  Clickable movie boxes to view detailed information about each
+                  movie
+                </li>
+              </ul>
             </Description>
           </Wrap>
           <Btn>
             <a
               href="https://github.com/DevanshiJodhani/Jio-Cinema"
-              target="_blank"
-            >
+              target="_blank">
               <i className="bx bxl-github"></i>
             </a>
             <a href="#">
@@ -184,18 +273,22 @@ const Project = () => {
             <Description>
               <h2>Blog Application </h2>
               <ul>
-                <li>I have created a Blog App using React.js with the Vite framework,
-                Appwrite, and Tailwind CSS.</li>
+                <li>
+                  I have created a Blog App using React.js with the Vite
+                  framework, Appwrite, and Tailwind CSS.
+                </li>
                 <li>Login and logout functionality.</li>
-                <li>Users can view posts created by others and upload their own posts.</li>
+                <li>
+                  Users can view posts created by others and upload their own
+                  posts.
+                </li>
               </ul>
             </Description>
           </Wrap>
           <Btn>
             <a
               href="https://github.com/DevanshiJodhani/Blog-App"
-              target="_blank"
-            >
+              target="_blank">
               <i className="bx bxl-github"></i>
             </a>
             <a href="#">
@@ -211,16 +304,22 @@ const Project = () => {
             <Description>
               <h2>Dictonary Application</h2>
               <ul>
-                <li>I have created a Dictionary App using HTML, CSS, and JavaScript.</li>
-                <li>Users can easily look up the meanings, definitions, and pronunciations of words. Simply type a word into the search bar and click the search button to get instant results.</li>
+                <li>
+                  I have created a Dictionary App using HTML, CSS, and
+                  JavaScript.
+                </li>
+                <li>
+                  Users can easily look up the meanings, definitions, and
+                  pronunciations of words. Simply type a word into the search
+                  bar and click the search button to get instant results.
+                </li>
               </ul>
             </Description>
           </Wrap>
           <Btn>
             <a
               href="https://github.com/DevanshiJodhani/Dictionary-App"
-              target="_blank"
-            >
+              target="_blank">
               <i className="bx bxl-github"></i>
             </a>
             <a href="#">
@@ -236,17 +335,22 @@ const Project = () => {
             <Description>
               <h2>Country Information Application</h2>
               <ul>
-                <li>I have created a Country Information App using HTML, CSS, and
-                JavaScript with API integration.</li>
-                <li>Users can search for a country name and get all information about that country, including the flag, time, borders, and more.</li>
+                <li>
+                  I have created a Country Information App using HTML, CSS, and
+                  JavaScript with API integration.
+                </li>
+                <li>
+                  Users can search for a country name and get all information
+                  about that country, including the flag, time, borders, and
+                  more.
+                </li>
               </ul>
             </Description>
           </Wrap>
           <Btn>
             <a
               href="https://github.com/DevanshiJodhani/Country-Information-App"
-              target="_blank"
-            >
+              target="_blank">
               <i className="bx bxl-github"></i>
             </a>
             <a href="#">
@@ -262,17 +366,21 @@ const Project = () => {
             <Description>
               <h2>Weather Application</h2>
               <ul>
-                <li>I have created a Weather App using HTML, CSS and JavaScript with
-                API integration.</li>
-                <li>Users can search for a city name and get all the information about the current weather there.</li>
+                <li>
+                  I have created a Weather App using HTML, CSS and JavaScript
+                  with API integration.
+                </li>
+                <li>
+                  Users can search for a city name and get all the information
+                  about the current weather there.
+                </li>
               </ul>
             </Description>
           </Wrap>
           <Btn>
             <a
               href="https://github.com/DevanshiJodhani/Weather-App"
-              target="_blank"
-            >
+              target="_blank">
               <i className="bx bxl-github"></i>
             </a>
             <a href="#">
@@ -280,7 +388,6 @@ const Project = () => {
             </a>
           </Btn>
         </Box>
-        
       </ProjectBx>
     </Container>
   );
@@ -412,10 +519,10 @@ const Description = styled.p`
     color: #440075;
   }
 
-  ul{
-    padding-left:20px;
+  ul {
+    padding-left: 20px;
 
-    li{
+    li {
       margin-bottom: 10px;
       font-size: 14px;
       font-weight: 400;
