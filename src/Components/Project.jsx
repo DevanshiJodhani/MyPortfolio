@@ -11,6 +11,44 @@ const Project = () => {
         <Box>
           <Wrap>
             <ImgBox>
+              <img src="./images/Parking.png" alt="Weather App" />
+            </ImgBox>
+            <Description>
+              <h2>Vehicle Parking App</h2>
+              <ul>
+                <li>
+                  Developed a full-stack video streaming platform using React.js
+                  with Vite for the frontend and Node.js with MongoDB for the
+                  backend.
+                </li>
+                <li>
+                  Implemented user authentication, profile management (avatar,
+                  cover image, password updates), and account deletion.
+                </li>
+                <li>
+                  Built features for video upload, edit, publish/unpublish,
+                  likes, comments, and channel pages with personalized feeds
+                  like history and liked videos.
+                </li>
+                <li>
+                  Integrated Cloudinary for secure video/image storage and
+                  enabled full-text search for channels and videos.
+                </li>
+              </ul>
+            </Description>
+          </Wrap>
+          <Btn>
+            <a
+              href="https://github.com/23f1001631/Vehicle-Parking-App-V1"
+              target="_blank">
+              <i className="bx bxl-github"></i>
+              <span> GitHub</span>
+            </a>
+          </Btn>
+        </Box>
+        <Box>
+          <Wrap>
+            <ImgBox>
               <img src="./images/reel-hive.png" alt="Weather App" />
             </ImgBox>
             <Description>
@@ -40,9 +78,7 @@ const Project = () => {
           <Btn>
             <a href="https://github.com/Reel-Hive/Reel-Hive" target="_blank">
               <i className="bx bxl-github"></i>
-            </a>
-            <a href="https://reel-hive.netlify.app/" target="_blank">
-              <i className="bx bx-link-external"></i>
+              <span> GitHub</span>
             </a>
           </Btn>
         </Box>
@@ -82,9 +118,7 @@ const Project = () => {
               href="https://github.com/DevanshiJodhani/FastNews-newsApp"
               target="_blank">
               <i className="bx bxl-github"></i>
-            </a>
-            <a href="#">
-              <i className="bx bx-link-external"></i>
+              <span> GitHub</span>
             </a>
           </Btn>
         </Box>
@@ -119,9 +153,7 @@ const Project = () => {
               href="https://github.com/DevanshiJodhani/Natours"
               target="_blank">
               <i className="bx bxl-github"></i>
-            </a>
-            <a href="#">
-              <i className="bx bx-link-external"></i>
+              <span> GitHub</span>
             </a>
           </Btn>
         </Box>
@@ -153,10 +185,7 @@ const Project = () => {
             <a
               href="https://github.com/DevanshiJodhani/Disney-Clone"
               target="_blank">
-              <i className="bx bxl-github"></i>
-            </a>
-            <a href="#">
-              <i className="bx bx-link-external"></i>
+              <span> GitHub</span>
             </a>
           </Btn>
         </Box>
@@ -188,9 +217,7 @@ const Project = () => {
               href="https://github.com/DevanshiJodhani/Twitter"
               target="_blank">
               <i className="bx bxl-github"></i>
-            </a>
-            <a href="https://thetitter.netlify.app/" target="_blank">
-              <i className="bx bx-link-external"></i>
+              <span> GitHub</span>
             </a>
           </Btn>
         </Box>
@@ -223,9 +250,7 @@ const Project = () => {
               href="https://github.com/DevanshiJodhani/LinkedIn-Clone"
               target="_blank">
               <i className="bx bxl-github"></i>
-            </a>
-            <a href="#">
-              <i className="bx bx-link-external"></i>
+              <span> GitHub</span>
             </a>
           </Btn>
         </Box>
@@ -258,10 +283,7 @@ const Project = () => {
             <a
               href="https://github.com/DevanshiJodhani/Jio-Cinema"
               target="_blank">
-              <i className="bx bxl-github"></i>
-            </a>
-            <a href="#">
-              <i className="bx bx-link-external"></i>
+              <span> GitHub</span>
             </a>
           </Btn>
         </Box>
@@ -290,9 +312,7 @@ const Project = () => {
               href="https://github.com/DevanshiJodhani/Blog-App"
               target="_blank">
               <i className="bx bxl-github"></i>
-            </a>
-            <a href="#">
-              <i className="bx bx-link-external"></i>
+              <span> GitHub</span>
             </a>
           </Btn>
         </Box>
@@ -321,9 +341,7 @@ const Project = () => {
               href="https://github.com/DevanshiJodhani/Dictionary-App"
               target="_blank">
               <i className="bx bxl-github"></i>
-            </a>
-            <a href="#">
-              <i className="bx bx-link-external"></i>
+              <span> GitHub</span>
             </a>
           </Btn>
         </Box>
@@ -352,9 +370,7 @@ const Project = () => {
               href="https://github.com/DevanshiJodhani/Country-Information-App"
               target="_blank">
               <i className="bx bxl-github"></i>
-            </a>
-            <a href="#">
-              <i className="bx bx-link-external"></i>
+              <span> GitHub</span>
             </a>
           </Btn>
         </Box>
@@ -382,9 +398,7 @@ const Project = () => {
               href="https://github.com/DevanshiJodhani/Weather-App"
               target="_blank">
               <i className="bx bxl-github"></i>
-            </a>
-            <a href="#">
-              <i className="bx bx-link-external"></i>
+              <span> GitHub</span>
             </a>
           </Btn>
         </Box>
@@ -542,11 +556,12 @@ const Btn = styled.div`
   a {
     position: relative;
     display: inline-flex;
+    gap: 10px;
     justify-content: center;
     align-items: center;
     padding: 12px 20px;
     margin-left: 10px;
-    width: 50px;
+    width: 150px;
     height: 50px;
     border: 2px solid #695aa6;
     border-radius: 12px;
